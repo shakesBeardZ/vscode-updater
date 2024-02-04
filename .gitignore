@@ -1,0 +1,32 @@
+# General
+*.log
+*.tmp
+*.temp
+*.swp
+*~
+
+# OS-specific
+.DS_Store # macOS-specific files
+Thumbs.db # Windows-specific files
+*.db # database files
+
+# Editor backups
+*.bak
+*.backup
+*.sav
+*.swo
+*.swp
+
+# Ignore the downloaded deb file
+/tmp/code_latest_amd64.deb
+
+# Ignore any hidden directory
+.*/
+
+# Ignore any executable files
+*.exe
+*.out
+*.bin
+
+# Ignore potential environment-specific files
+.env
